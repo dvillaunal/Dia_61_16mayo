@@ -138,6 +138,11 @@ write.table(texto, file = "BancosProductoras.txt", row.names = F)
 ```
 
 
+```{r, eval=FALSE, include=FALSE}
+library(knitr)
+purl("Dia_61_16mayo.Rmd", "main.r")
+```
+
 
 
 
